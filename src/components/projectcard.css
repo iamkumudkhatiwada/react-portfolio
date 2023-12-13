@@ -1,0 +1,44 @@
+.project {
+  width: 100%;
+  padding: 6rem 1rem;
+  background-color: black;
+}
+.card-container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 80%;
+  border: 1px solid #eee;
+  color: #eee;
+  text-align: center;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+.card img {
+  width: 70%;
+  height: 80%;
+  box-shadow: 0 2rem 4rem rgba(247, 250, 248, 0.438);
+}
+.card .btn {
+  margin-top: 10px;
+}
+li {
+  list-style-type: none;
+}
+
+.card:hover {
+  background-color: #141414;
+}
+@media screen and (max-width: 740px) {
+  .card-container {
+    max-width: 90%;
+    margin: auto;
+  }
+}

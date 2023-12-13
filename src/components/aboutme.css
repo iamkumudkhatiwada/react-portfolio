@@ -1,0 +1,26 @@
+.about {
+  padding: 5rem;
+  width: 100%;
+}
+.my-intro {
+  max-width: 1140px;
+  text-align: center;
+}
+.logos {
+  text-align: center;
+}
+.my-intro * {
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 700px) {
+  .logos {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+  .my-intro p {
+    text-align: justify;
+    width: 100%;
+  }
+}
